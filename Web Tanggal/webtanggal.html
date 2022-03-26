@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date Time</title>
+</head>
+<body>
+	<h2>Hari dan Tanggal, Hari ini adalah </h2>
+	<script type="text/javascript">
+		var d=new Date()
+		var weekday=new
+		Array("Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu")
+		var monthname=new
+		Array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember")
+		document.write(weekday[d.getDay()]  + " ")
+		document.write(d.getDate() + ".")
+		document.write(monthname[d.getMonth()] + " ")
+		var fullyear=new
+		Array("2022", "2023")
+		document.write(d.getFullYear())
+	</script>
+</body>
+</html>
